@@ -184,11 +184,68 @@ Este projeto é uma proposta teórica inicial e um ponto de partida para explora
 
 ## 📄 Referências
 
-1.  Larsson, G., Maire, M., & Shakhnarovich, G. (2017). **FractalNet: Ultra-Deep Neural Networks without Residuals.** *ICLR 2017*. (Seu PDF: `1605.07648v4.pdf`)
+1.  Larsson, G., Maire, M., & Shakhnarovich, G. (2017). **FractalNet: Ultra-Deep Neural Networks without Residuals.** *ICLR 2017*. (`1605.07648v4.pdf`)
 2.  Junior, J. R. F. (2024, August 19). **FractalBrainNet.** *LinkedIn Pulse*. (O artigo que você forneceu)
 3.  Mandelbrot, B. B. (1982). *The Fractal Geometry of Nature.* W. H. Freeman and Co.
 4.  Sierpinski, W. (1915). On the theory of fractions. *Mathematische Annalen*.
 5.  Hubel, D. H., & Wiesel, T. N. (1962). Receptive fields, binocular interaction and functional architecture in the cat's visual cortex. *Journal of Physiology*.
+
+# 🧠 FractalBrainNet
+
+FractalBrainNet é uma arquitetura neural profunda inspirada em padrões fractais naturais e dinâmicas cerebrais multiescalares. Esta rede é capaz de representar comportamentos neurais hierárquicos, auto-similares e adaptativos, integrando conceitos de geometria fractal com estratégias avançadas de processamento neural distribuído.
+
+---
+
+## 📐 Arquitetura
+
+A arquitetura se baseia em três pilares fundamentais:
+
+1. **Padrões Fractais** – A estrutura de conectividade entre camadas é definida por fractais como Mandelbrot, Julia, Sierpinski, etc.
+2. **Dinâmicas Cerebrais** – Simulações de faixas de frequência cerebral (alpha, beta, gamma, theta) através de módulos convolucionais especializados.
+3. **Processamento Multi-Escala** – Fusão adaptativa de diferentes escalas espaciais (local, regional, global) para emular diferentes níveis de abstração neural.
+
+---
+
+## 🧩 Componentes Principais
+
+### `FractalPatternGenerator`
+Responsável por gerar padrões de conectividade fractal utilizados como máscaras de atenção ou filtros de convolução.
+- Mandelbrot
+- Julia
+- Sierpinski
+- Cantor *(em construção)*
+- Dragon Curve *(em construção)*
+
+### `CerebralDynamicsModule`
+Módulo que aplica convoluções especializadas para simular frequências cerebrais. Atua com:
+- Filtros Alpha (8–12 Hz)
+- Beta (13–30 Hz)
+- Gamma (30–100 Hz)
+- Theta (4–8 Hz)
+
+### `FractalNeuralBlock`
+Bloco recursivo fractal com:
+- Ramos profundos e rasos
+- Mecanismo de atenção fractal para fusão entre ramos
+- Dinâmicas cerebrais acopladas
+
+### `AdaptiveScaleProcessor`
+Fusão adaptativa entre processamentos em diferentes escalas:
+- Local (1×1)
+- Regional (3×3)
+- Global (5×5)
+
+### `FractalBrainNet`
+Rede completa construída com múltiplos níveis fractais (`fractal_levels=[2, 3, 4, 5]` por padrão) e módulos adaptativos. Inclui suporte opcional a aprendizado contínuo.
+
+---
+
+## ⚙️ Configuração
+
+### Instalação
+
+```bash
+pip install torch numpy
 
 ---
 
