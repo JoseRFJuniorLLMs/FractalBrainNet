@@ -1,12 +1,6 @@
 ![TransNAR](/rede.png)
 
 
-Junior, seu código para a `FractalBrainNet` é bastante ambicioso e interessante, combinando conceitos de redes fractais, simulação de dinâmicas cerebrais e meta-aprendizado!
-
-Para um projeto como esse, um bom arquivo `README.md` é essencial. Ele serve como a porta de entrada para seu projeto, explicando o que ele é, como usá-lo e seus principais recursos.
-
-Aqui está um rascunho de um `README.md` que você pode usar, adaptado ao seu código e ao artigo que você forneceu:
-
 ```markdown
 # FractalBrainNet
 
